@@ -1,0 +1,57 @@
+# === Java / Spring Boot ===
+Backend/target/
+Backend/.idea/
+Backend/*.iws
+Backend/*.iml
+Backend/*.ipr
+Backend/.apt_generated
+Backend/.classpath
+Backend/.factorypath
+Backend/.project
+Backend/.settings/
+Backend/.springBeans
+Backend/.sts4-cache
+Backend/build/
+Backend/.mvn/wrapper/maven-wrapper.jar
+
+# === Node / Angular ===
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/tmp/
+frontend/out-tsc/
+frontend/coverage/
+frontend/connect.lock
+frontend/testem.log
+frontend/typings/
+
+# === IDEs ===
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.project
+.classpath
+.settings/
+*.sublime-workspace
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+# Nao ignorar Dockerfiles e docker-compose.yml
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# === Database Backups ===
+*.sql
+
+# === Environment / Secrets ===
+.env
+.env.*
+!.env.example
