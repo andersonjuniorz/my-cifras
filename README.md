@@ -1,5 +1,8 @@
 # MyCifras
 
+<img width="1239" height="574" alt="image" src="https://github.com/user-attachments/assets/36a09c3d-c663-4678-a17b-88c526237e8e" />
+
+
 ## Descrição do projeto
 
 MyCifras é uma aplicação **local e pessoal** para gerenciar cifras musicais (chord charts). Permite criar, editar, organizar e versionar suas próprias versões simplificadas/corrigidas de músicas — ideal para violão, guitarra e teclado. Resolve o problema de cifras incorretas em sites públicos que são revertidas por outros usuários, e suporta criação de playlists (listas) para ensaios e apresentações.
@@ -37,8 +40,8 @@ MyCifras é uma aplicação **local e pessoal** para gerenciar cifras musicais (
 
 ```bash
 # Clone o repositório
-git clone <url-do-repo>
-cd mycifras
+git clone git@github.com:andersonjuniorz/my-cifras.git
+cd my-cifras
 
 # Copie o arquivo de ambiente e ajuste
 cp .env.example .env
@@ -47,7 +50,9 @@ cp .env.example .env
 docker compose up -d
 
 # Acesse:
-# Frontend: http://localhost
+http://localhost
+
+
 # Backend API: http://localhost:8080/api
 # Admin: http://localhost/admin
 ```
