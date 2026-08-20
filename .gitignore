@@ -50,6 +50,7 @@ yarn-error.log*
 
 # === Database Backups ===
 *.sql
+!Backend/src/main/resources/schema.sql
 
 # === Environment / Secrets ===
 .env
